@@ -32,9 +32,9 @@ pipeline {
             steps {
                 script {
                     if (isUnix()) {
-                        sh 'java Hello'
+                        sh 'java HelloMaam'
                     } else {
-                        bat 'java Hello'
+                        bat 'java HelloMaam'
                     }
                 }
             }
